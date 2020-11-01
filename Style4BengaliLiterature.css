@@ -1,0 +1,31 @@
+body{
+	background:rgb(233, 213, 176);
+    font-size: 110%;
+    color: rgb(68, 30, 18);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.photo{
+    width: 15%;
+    margin: 2%;
+    display: inline;
+    float: left;
+}
+.description{
+    width: 75em;
+    display: inline;
+    margin-left: 2%;
+    float: left;
+}
+details,summary,p{
+    margin: 1%;
+}
+fieldset{
+	padding: 1%;
+    margin: 0.5%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(68, 30, 18) ;
+}

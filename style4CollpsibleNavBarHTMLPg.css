@@ -1,0 +1,71 @@
+body{
+	background:rgb(233, 213, 176);
+	font-size: 110%;
+}
+
+header{
+	background: rgb(92, 94, 95);
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+h1{
+	color: #ffffff;
+}
+
+/*nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}*/
+
+h2{
+	font-size: 1.5rem;
+	/*color: rgb(255, 255, 250);
+	background:rgb(92, 94, 95);*/
+}
+
+section{
+	width: 29vw;
+	margin-right: 2.5%;
+	margin-left: 1%;
+    padding: 1%;	
+    display:inline-block;
+    float: left;
+    color: rgb(68, 30, 18);	
+}
+#MAM
+{
+    width: 90%;
+}
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	background: rgb(92, 94, 95);
+	height:15%;
+	clear: both;
+    color: rgb(255,255,255)
+}
+a{
+    color: deepskyblue;
+}
+img{
+	width: 90%;
+}
+
+@media screen and (min-width:760px){
+div{
+	width: 29vw;
+	margin-right: 2.5%;
+	margin-left: 1%;
+    padding: 0.5%;	
+    display:inline;
+    float: left;
+    color: rgb(68, 30, 18);	
+}}
